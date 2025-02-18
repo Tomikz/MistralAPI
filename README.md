@@ -15,7 +15,7 @@ Installation & Launch :
 - Clone the project, navigate to the folder, and install dependencies:
   1) Open your terminal
   2) Run the command: git clone https://github.com/Tomikz/MistralAPI
-  3) Navigate to the folder with: cd chatbot-mistral
+  3) Navigate to the folder with: cd MistralAPI
   4) Install dependencies using: npm install
 
 - Configure environment variables and start the project:
@@ -40,7 +40,7 @@ Installation & Lancement :
 - Cloner le projet , se rendre dans le dossier et installer les dépendances:
   1) Lancez votre terminal
   2) Executez la commande : git clone https://github.com/Tomikz/MistralAPI
-  3) Rendez vous dans le dossier avec la commande : cd chatbot-mistral
+  3) Rendez vous dans le dossier avec la commande : cd MistralAPI
   4) Installez les dépendances avec la commande : npm install
       
 - Configurer les variables d'environnement et lancer le projet
