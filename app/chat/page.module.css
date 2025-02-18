@@ -1,0 +1,178 @@
+
+.titre {
+  color: #b4b4b4;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #303030;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.layout {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  height: calc(100vh - 80px); 
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #404045;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-y: auto; /*On active le défilement si c'est nécessaire*/
+}
+
+.newConversationButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #ddd;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.newConversationButton:hover {
+  background-color: #b8b2b2;
+}
+
+.conversationList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.conversationItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  background-color: #505055;
+  color: white;
+}
+
+.conversationItem:hover {
+  background-color: #8a8a91;
+}
+
+.conversationItem.selected {
+  background-color: #9a9aaa;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.deleteButton:hover {
+  color: #ff4d4d;
+}
+
+.deleteButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chatArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto; /*On active le défilement vertical (sur l'axe y)*/
+  max-height: 3000px; /*hauteur maximale pour la zone de messages afin que cela ne dépasse pas de l'écran*/
+  padding: 20px;
+  background-color: #303030;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.paul {
+  background-color: #404045;
+  color: white;
+  margin-left: auto;
+}
+
+.mistralAI {
+  background-color: #e9ecef;
+  color: black;
+  margin-right: auto;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: #303030;
+  border: 1px solid #303030;
+  border-radius: 8px;
+}
+
+.input {
+  color: #030303;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #303030;
+  border-radius: 8px;
+  outline: none;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #404045;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #48484e;
+}
+
+.codeBlock {
+  background-color: #2f2f2f;
+  color: #b4b4b4;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+.codeLanguage {
+  color: #404045;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
