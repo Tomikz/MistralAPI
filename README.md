@@ -16,7 +16,8 @@ Installation & Launch :
   1) Open your terminal
   2) Run the command: git clone https://github.com/Tomikz/MistralAPI
   3) Navigate to the folder with: cd MistralAPI
-  4) Install dependencies using: npm install
+  4) Download Node.js on the website : https://nodejs.org/fr
+  5) Install dependencies using: npm install
 
 - Configure environment variables and start the project:
   1) Create a .env.local file at the root of the project and add: MISTRAL_API_KEY=your_mistral_api_key
@@ -41,7 +42,8 @@ Installation & Lancement :
   1) Lancez votre terminal
   2) Executez la commande : git clone https://github.com/Tomikz/MistralAPI
   3) Rendez vous dans le dossier avec la commande : cd MistralAPI
-  4) Installez les dépendances avec la commande : npm install
+  4) Téléchargez Node.js sur le site : https://nodejs.org/fr
+  5) Installez les dépendances avec la commande : npm install
       
 - Configurer les variables d'environnement et lancer le projet
   1) Crée un fichier .env.local à la racine du projet et ajoute : MISTRAL_API_KEY=ta_cle_api_mistral
